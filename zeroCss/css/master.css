@@ -1,0 +1,9 @@
+div{
+    background-color:darkcyan;
+    background-color: rgb(50, 50, 50/50%);
+    background-image: url(../../tasksZero/صورتي.jpeg);
+    background-repeat:no-repeat ;
+    /*background-attachment: fixed;*/
+    /*background-position:right bottom;*/
+    background-size: 10 10;
+}
