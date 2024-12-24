@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+img{
+    height: 236px;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.info{
+    margin-left: 234px;
+    margin-top: -234px;
+    font-size:large;
+
+}
+.skils{
+    font-size:large;
+    margin-left: 234px;
+}
+.contact{
+    text-align: center;
+    margin-top: 150px;
+    background-color: aqua;
+}
+/* directr selector*/
+.contact > a{
+    margin-left: 6px;
+}
+#con{
+    margin-left: 692px;
+}
