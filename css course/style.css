@@ -1,0 +1,58 @@
+.pp >p{
+   background: red;
+} 
+span{
+    background-color: aqua;
+}
+hr{
+    height: 4px;
+    width: 500%;
+    background-color: black;
+    border-top: 2px dashed ;
+}
+#sd{
+    text-align: center;
+    text-align: right;
+}
+#gg{
+    background-color: aliceblue;
+    text-align: center  ;
+}
+h3{
+    direction: rtl;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+h2{
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 50px;
+}
+h4{
+    text-decoration-line: underline overline line-through;
+
+}
+ 
+ /* text-shadow: H-shadow
+  text-shadow: V-shadow
+  text-shadow: blur-shadow الضبابية
+  text-shadow: color-shadow
+
+  box-shadow: H-shadow
+  box-shadow: V-shadow
+  box-shadow: blur-shadow الضبابية
+  box-shadow: spread-shadow
+  box-shadow: color-shadow
+  box-shadow: inset-shadow بكون من جوا العنصر مش من برا
+
+
+*/
+.moh > h1 {
+    text-shadow: 5px 5px 10px rgb(28, 78, 143),-5px -5px 1px rgb(90, 90, 200);
+}
+#fff{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    box-shadow: 10px 10px 10px 10px blue inset;
+}
