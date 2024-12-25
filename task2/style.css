@@ -14,17 +14,25 @@ img{
 }
 .skils{
     font-size:large;
-    margin-left: 234px;
+    margin-left: 2px;
 }
 .contact{
     text-align: center;
-    margin-top: 150px;
-    background-color: aqua;
+    margin: -225px 0 0 309px;
+    width: 174px;
+    height: 83px;
+    padding: 40px;
+    border: 7px solid gray;
+    
 }
 /* directr selector*/
 .contact > a{
     margin-left: 6px;
 }
 #con{
-    margin-left: 692px;
+    margin-left: 225px;
 }
+/*#back{
+    margin-top: 700px;
+    margin-left: 690px;
+}*/
