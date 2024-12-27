@@ -44,9 +44,9 @@ h4{
   box-shadow: spread-shadow
   box-shadow: color-shadow
   box-shadow: inset-shadow بكون من جوا العنصر مش من برا
-
-
 */
+
+
 .moh > h1 {
     text-shadow: 5px 5px 10px rgb(28, 78, 143),-5px -5px 1px rgb(90, 90, 200);
 }
