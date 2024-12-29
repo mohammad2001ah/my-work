@@ -1,10 +1,10 @@
- div{
+ /* div{
     height: 100px;
     width: 200px;
     background-color: rgb(209, 163, 163);
     background-size: contain;
      
-}
+} */
 /*div:hover{
     background-color: aqua;
     height: 50px;
@@ -25,3 +25,78 @@
 a:visited{
     color: blueviolet;
 }
+input:invalid{
+   background-color: aqua;
+}
+/* p::first-line{
+   background-color: aquamarine;
+}
+p::first-letter{
+   background-color: aquamarine;
+} */
+ p{
+   height: 50px;
+   background: aqua;
+   position: relative;
+ }
+ P::before
+ {
+   content:' ' ;
+  background-color: black;
+   font-size: large;
+   /* 1-hight and width*/
+   height: 10px;
+   width: 100%;
+    /*  2- position*/
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ /* 
+ 1- [attr]
+ 2-element[attr]
+ 3-[attr="value"]
+ 4- element[attr="value"]
+ 5-[attr ^ ="value"] start with
+ 6-[attr $ ="value"] end with
+ 7-[attr * ="value"] containing a spesified value
+ 8-[attr ~ ="value"] containing a spesified word
+
+ 
+ */
+ [placeholder]{
+   background-color: black;
+
+ }
+ input[placeholder]{
+   background-color: black;
+
+ }
+ 
+ [type="text"]{
+   background-color: black;
+
+ }
+ /* [href ^="www."]
+ {
+   background-color: brown;
+ } */
+ /* [href $="com"]
+ {
+   background-color: brown;
+ } */
+ /* [href *="facebook"]
+ {
+   background-color: brown;
+ } */
+ 
+ [href ~="goo"]
+ {
+   background-color: brown;
+ }
+ 
+
+ 
+
+ 
+
