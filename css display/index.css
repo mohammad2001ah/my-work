@@ -1,0 +1,20 @@
+span,p{
+    background-color: aquamarine;
+    width: 100px;
+    height: 95px;
+}
+/*
+ hide
+ delete
+ transparency
+ */
+.first{
+    background: mediumorchid;
+    /* visibility: visible; */
+    /* visibility: hidden; */
+    /* display: none; */
+    /* opacity: 0.5; */
+}
+.second{
+    background: grey;
+}

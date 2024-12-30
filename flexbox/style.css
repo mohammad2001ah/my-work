@@ -1,0 +1,67 @@
+/* 
+   if flex-direction == row
+      justify-content => x
+      align-items => y
+      align-content => y
+
+   if flex-direction == column
+      justify-content => y
+      align-items => x
+      align-content => x 
+    
+
+*/
+
+
+
+
+.parent{
+    background: gold;
+    padding: 10px; 
+    display: flex;
+    height: 500px;
+    /* justify-content: space-evenly ;
+    flex-flow: column wrap;
+    align-items:stretch;
+    align-content:flex-end; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* justify-content: space-around ; */
+    /* justify-content: space-between ; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* flex-flow: column nowrap; */
+    /* flex-wrap: wrap-reverse ; */
+    /* flex-wrap: nowrap; */
+    /* display: inline-flex; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+.parent div{
+    padding: 10px;
+    margin: 10px;
+} 
+.item1{
+    background: green;
+    /* align-self: center; */
+    /* align-self: flex-end; */
+    /* align-self: flex-start; */
+    /* order: 1; */
+    flex-grow: 1;
+}
+.item2{
+    background: rgb(53, 32, 168);
+    /* order: 2; */
+    flex-grow: 1;
+}
+.item3{ 
+    background: rgb(170, 38, 142);
+    /* order: 3; */
+    flex-grow: 1;
+}
+.item4{
+    background: rgb(190, 92, 12);
+    /* order:4;  */
+    flex-grow: 1;
+}
