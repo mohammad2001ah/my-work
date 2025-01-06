@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navBar{
+    display: flex;
+    background-color: rgb(35, 60, 170);
+    border-radius: 130px;
+    margin: 15px 25px;
+}
+.image{
+    border-radius: 119px;
+    margin: 10px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 150px;
+    margin-left: auto;
+    margin-right: 70px;
+    
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+
+}
+.leftMenu{
+    grid-area: leftMenu;
+    background-color: rgb(28, 30, 177);
+    height: 400px;
+}
+.leftMenu button{
+    display: block;
+    justify-content: center;
+    margin: 10px auto ;
+}
+.rightMenu{
+    grid-area: rightMenu;
+    background-color: rgb(255, 94, 0);
+}
+.links-group{
+    display: inline-block;
+    margin: 25%;
+}
+a{
+    text-decoration: none;
+}
+
+.contant{
+    grid-area: contant;
+    background-color: rgb(97, 175, 165);
+}
+.contant img{
+    margin: 10px;
+}
+.contant p{
+    margin-bottom: 20px;
+}
+.footer{
+    grid-area: footer;
+    background-color: rgb(200, 30, 206);
+}
+#container{
+    display:grid;
+    grid-template-rows: auto; 
+    grid-template-areas:
+    "header header header header header"
+    "leftMenu contant contant contant rightMenu"
+    "leftMenu footer footer footer footer";
+    gap: 15px;
+    text-align: center;
+}
